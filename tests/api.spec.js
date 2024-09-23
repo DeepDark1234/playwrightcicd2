@@ -5,7 +5,7 @@ test.setTimeout(6000000)
 
 var user_id
 
-test('Get Users', async ({ request }) => {
+test('Get Users cicd', async ({ request }) => {
   // การทดสอบ API Method Get
   const response = await request.get('https://reqres.in/api/users/2')
   console.log(response)
